@@ -4,13 +4,9 @@
 
 
 1. Research background information about the data set and write a summary about it.
-- Fisher's Iris Data Set [1] is a data set that was introduced by Ronald Fisher [2], a British statistician and biologist. Fisher wrote about this data set in his paper "The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis" [3] 
+- Fisher's Iris Data Set [1] is a multivariate data set that was introduced by Ronald Fisher [2], a British statistician and biologist. This data set is extremely well known in classification literature. Fisher introduced the Iris data set in his paper "The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis" [3].
 
-
-Scatterplot of the data set
-
-Ronald Fisher
-The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis
+The data set contains 50 samples from three species of the Iris flower; Iris setosa, Iris virginica and Iris verisicolor. Each sample measures 4 components of each Iris flower; sepal length, sepal width, petal length and petal width [4]. 
 
 
 
@@ -33,3 +29,7 @@ https://www.famousscientists.org/ronald-fisher/
 
 [3] Ronald Fisher's 1936 papere entitled "The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis"
 http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
+
+[4] Wikipedia page. Iris Data Set.
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+
