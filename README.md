@@ -1,6 +1,6 @@
 # Programming and Scripting Project 2018
 
-### Fisher's Iris Data Set Project 2018 
+##Fisher's Iris Data Set Project 2018 
 
 
 1. Research background information about the data set and write a summary about it.
@@ -20,7 +20,7 @@ The data set contains 50 samples from three species of the Iris flower; Iris set
 
 
 
-### References
+## References - need to look at Harvard Referencing (?say why reference is here) 
 [1] UC Irvine Machine Learning Repository. Iris data set.
 http://archive.ics.uci.edu/ml/datasets/Iris.
 
@@ -32,4 +32,24 @@ http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
 
 [4] Wikipedia page. Iris Data Set.
 https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+
+
+### Project Planning / To do:
+- Quality Assurance Framework
+- For summary: what the data contains, what it's about, background surrounding data, why it is so commonly used in data analytics
+- Write code on the data set:
+  - summary statistics
+  - max value, min value
+  - sum of each column
+  - mean/average in each column, median
+  - spread within the data, standard deviation
+  - think about how to represent visually - histogram, table, scatterplot (research this)
+ - Break project into smaller tasks 
+ - What does the data look like?
+ - Sell Python to colleagues using data set 
+ - Explain in README how to run program and what it does 
+ - Why is this data set interesting? Can refer to more detailed website that analyses data if further description is needed 
+  
+
 
