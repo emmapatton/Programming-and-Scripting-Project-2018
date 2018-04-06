@@ -51,7 +51,7 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
  - Explain in README how to run program and what it does 
  - Why is this data set interesting? Can refer to more detailed website that analyses data if further description is needed 
   
-###Accessed on 06/04/2018:
+### Accessed on 06/04/2018:
 - https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python#import research in relation to basic calculations of the data
 - https://www.marsja.se/pandas-python-descriptive-statistics/ descriptive stats using pandas
 - https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html how to add headers 
