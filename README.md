@@ -56,4 +56,9 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 - https://www.marsja.se/pandas-python-descriptive-statistics/ descriptive stats using pandas
 - https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html how to add headers 
 
+### Accessed on 11/04/2018:
+- https://matplotlib.org/
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html - accessed for a range of mathematical functions including, mean, min, max, standev etc. 
+https://medium.com/@kasiarachuta/basic-statistics-in-pandas-dataframe-594208074f85
+
 
