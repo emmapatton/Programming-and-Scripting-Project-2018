@@ -5,6 +5,7 @@
 #Import the pandas library as pd
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from pprint import pprint 
 
 #Load in the data with'read_csv()'
@@ -53,4 +54,18 @@ irisstats = pd.read_csv("data/iris.csv", header = None, names = ["Sepal Length",
 
 #https://en.wikipedia.org/wiki/Correlation_coefficient
 
+
+
+# boxplot = irisstats.boxplot(column = "Sepal Length")
+
+# irisstats.plot(boxplot)
+
+
+# plt.scatter(irisstats['Sepal Length'], irisstats['Sepal Width'])
+
+
+irisstats.plot.scatter('Sepal Length', 'Sepal Width')
+
+
+plt.show() # Depending on whether you use IPython or interactive mode, etc.
 
