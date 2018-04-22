@@ -5,12 +5,66 @@
 #Import the pandas library as pd
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from pprint import pprint 
 
-#Load in the data with'read_csv()'
+heading = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width"]
 
-irisstats = pd.read_csv("data/iris.csv", header = None, names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Name"])
+#Load in the data with'read_csv()'
+irisstats = pd.read_csv("data/iris.csv", header = None, names = [*heading, "Species"]) #spread operator (*)
+
+
+species_columnwidth = '             {:^12}  {:^12}  {:^12}  {:^12}'
+num_columnwidth = '{:^12} {:^12.2f}  {:^12.2f}  {:^12.2f}  {:^12.2f}'
+
+irisstats_group_bys = irisstats.groupby(['Species'])
+
+
+setosa_df = irisstats_group_bys.get_group('Iris-setosa')
+setosa_df.name = 'Iris-setosa'
+versicolor_df = irisstats_group_bys.get_group('Iris-versicolor')
+versicolor_df.name = 'Iris-versicolor'
+virginica_df = irisstats_group_bys.get_group('Iris-virginica')
+virginica_df.name = 'Iris-virginica'
+
+
+
+def getIrisStats(species_group):
+    count = species_group.count()
+    mean = species_group.mean()
+    median = species_group.median()
+    stan_dev = species_group.std()
+    min = species_group.min(numeric_only=1)
+    max = species_group.max(numeric_only=1)
+
+    print(species_group.name)
+    print(species_columnwidth.format(*heading))
+    print(num_columnwidth.format('Mean', *mean.values))
+    print('')
+
+
+
+
+
+
+
+
+
+getIrisStats(setosa_df)
+getIrisStats(versicolor_df)
+getIrisStats(virginica_df)
+
+
+
+
+
+
+
+
+
+
+
+
 
 # describe_result = irisstats.describe()
 
@@ -53,19 +107,4 @@ irisstats = pd.read_csv("data/iris.csv", header = None, names = ["Sepal Length",
 # print(correl_result)
 
 #https://en.wikipedia.org/wiki/Correlation_coefficient
-
-
-
-# boxplot = irisstats.boxplot(column = "Sepal Length")
-
-# irisstats.plot(boxplot)
-
-
-# plt.scatter(irisstats['Sepal Length'], irisstats['Sepal Width'])
-
-
-irisstats.plot.scatter('Sepal Length', 'Sepal Width')
-
-
-plt.show() # Depending on whether you use IPython or interactive mode, etc.
 
