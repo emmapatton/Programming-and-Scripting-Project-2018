@@ -61,4 +61,8 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html - accessed for a range of mathematical functions including, mean, min, max, standev etc. 
 https://medium.com/@kasiarachuta/basic-statistics-in-pandas-dataframe-594208074f85
 
+### Accessed on 19/04/2018 amd 22/04/2018 
+- https://pandas.pydata.org/pandas-docs/stable/groupby.html
+- Using pandas to calculate a range of stats for the data
+
 
