@@ -1,4 +1,4 @@
-# Programming and Scripting Project 2018 - Fisher's Iris Data Set
+# Programming & Scripting Project '18 - Fisher's Iris Data Set
 
 ## Introduction 
 *Research background information about the data set and write a summary about it. (delete this prompt when finished)*
