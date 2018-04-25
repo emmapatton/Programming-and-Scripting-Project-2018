@@ -1,14 +1,32 @@
-# Programming and Scripting Project 2018
+# Programming and Scripting Project 2018 - Fisher's Iris Data Set
 
-## Fisher's Iris Data Set Project 2018 
+## Introduction 
+1. Research background information about the data set and write a summary about it. (delete this prompt when finished)
+Fisher's Iris Data Set [1] is a multivariate data set that was introduced by Ronald Fisher [2], a British statistician and biologist. This data set is extremely well known in classification literature. Fisher introduced the iris data set in his paper "The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis" [3].
 
-
-1. Research background information about the data set and write a summary about it.
-- Fisher's Iris Data Set [1] is a multivariate data set that was introduced by Ronald Fisher [2], a British statistician and biologist. This data set is extremely well known in classification literature. Fisher introduced the Iris data set in his paper "The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis" [3].
-
-The data set contains 50 samples from three species of the Iris flower; Iris setosa, Iris virginica and Iris verisicolor. Each sample measures 4 components of each Iris flower; sepal length, sepal width, petal length and petal width [4]. 
+The iris data set contains 3 different species of iris, with 50 samples each; iris setosa, iris virginica and iris verisicolor. 50 samples of each species were recorded and each ssample measures 4 components of each iris flower (in centimetres); sepal length, sepal width, petal length and petal width [4]. Fisher's data set has been commonly used for testing purposes in areas of computer science [5].
 
 
+## Getting Started
+
+### Prerequisites
+The following downloads are required to run this program: 
+
+- **Python** (ref) is a high level programming language .....
+
+https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/ - benefits of Python ... 
+
+- **Anaconda** (ref) is an open source pacakge manager used with Python. It is commonly used in Data Analytics. 
+"Anaconda is a free and open source[5] distribution of the Python and R programming languages for data science and machine learning related application" (wiki ref). 
+
+- **Visual Studio Code** (ref) is a source code editor that isavaiable on a number of operating systems including Windows, macOS and Linux. Visual studio code is the editor that can be used to run the programmes within this project. 
+
+
+
+### Installing 
+- Python  - available from: https://www.python.org/downloads/ -  It is recommended that you download the most recent version of Python. Check your operating system.....correct download (reword this). 
+- Anaconda - available from: https://www.anaconda.com/download/
+- Visual Studio Code: https://code.visualstudio.com/Download
 
 2. Keep a list of references you used in completing the project.
 3. Download the data set and write some Python code to investigate it.
@@ -32,6 +50,8 @@ http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
 
 [4] Wikipedia page. Iris Data Set.
 https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+[5] https://www.techopedia.com/definition/32880/iris-flower-data-set 25/04/2018 
 
 
 
@@ -64,5 +84,11 @@ https://medium.com/@kasiarachuta/basic-statistics-in-pandas-dataframe-594208074f
 ### Accessed on 19/04/2018 amd 22/04/2018 
 - https://pandas.pydata.org/pandas-docs/stable/groupby.html
 - Using pandas to calculate a range of stats for the data
+
+### Accessed on 25/04/2018 
+- https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04 
+- https://code.visualstudio.com/docs
+- https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/
+
 
 
