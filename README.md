@@ -90,5 +90,8 @@ https://medium.com/@kasiarachuta/basic-statistics-in-pandas-dataframe-594208074f
 - https://code.visualstudio.com/docs
 - https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/
 
+### Accessed on 26/04/2018 
+- https://www.shanelynn.ie/using-pandas-dataframe-creating-editing-viewing-data-in-python/
+
 
 
