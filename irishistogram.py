@@ -8,7 +8,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+# import seaborn as sns
 
 # import matplotlib.cm as cm
 # import matplotlib.colors as colors
@@ -17,4 +17,11 @@ import seaborn as sns
 
 irisstats = pd.read_csv("data/iris.csv", header = None, names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Name"])
 
-irisstats.hist()
+
+# table = irisstats.describe()
+
+irisstats.hist(column=1)
+
+plt.show()
+
+# https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/

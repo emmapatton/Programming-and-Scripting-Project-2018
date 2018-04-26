@@ -17,5 +17,6 @@ from collections import defaultdict
 
 irisstats = pd.read_csv("data/iris.csv", header = None, names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Name"])
 
-print(irisstats)
+# irisstats.hist()
 
+# plt.show()

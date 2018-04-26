@@ -5,28 +5,29 @@
 #Import the pandas library as pd
 import pandas as pd
 import numpy as np
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from pprint import pprint 
 
 heading = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width"]
 
 #Load in the data with'read_csv()'
-irisstats = pd.read_csv("data/iris.csv", header = None, names = [*heading, "Species"]) #spread operator (*)
+irisstats = pd.read_csv("data/iris.csv", header = None, names = [*heading, "Species"]) #I needed to add "Species" on to the end of my header so I used the spread operator (*)
 
 
-species_columnwidth = '             {:^12}  {:^12}  {:^12}  {:^12}'
-num_columnwidth = '{:^12} {:^12.2f}  {:^12.2f}  {:^12.2f}  {:^12.2f}'
+
+
 
 irisstats_group_bys = irisstats.groupby(['Species'])
 
 
 setosa_df = irisstats_group_bys.get_group('Iris-setosa')
 setosa_df.name = 'Iris-setosa'
+
 versicolor_df = irisstats_group_bys.get_group('Iris-versicolor')
 versicolor_df.name = 'Iris-versicolor'
+
 virginica_df = irisstats_group_bys.get_group('Iris-virginica')
 virginica_df.name = 'Iris-virginica'
-
 
 
 def getIrisStats(species_group):
@@ -37,22 +38,28 @@ def getIrisStats(species_group):
     min = species_group.min(numeric_only=1)
     max = species_group.max(numeric_only=1)
 
+    species_columnwidth = '             {:^12}  {:^12}  {:^12}  {:^12}'
+    num_columnwidth = '{:12} {:^12.2f}  {:^12.2f}  {:^12.2f}  {:^12.2f}'
+
     print(species_group.name)
     print(species_columnwidth.format(*heading))
+    print(num_columnwidth.format('Count', *count.values))
     print(num_columnwidth.format('Mean', *mean.values))
+    print(num_columnwidth.format('Median', *median.values))
+    print(num_columnwidth.format('Stand Dev', *stan_dev.values))
+    print(num_columnwidth.format('Min', *min.values))
+    print(num_columnwidth.format('Max', *max.values))
     print('')
-
-
-
-
-
-
-
 
 
 getIrisStats(setosa_df)
 getIrisStats(versicolor_df)
 getIrisStats(virginica_df)
+
+
+# print(setosa_df.to_html())
+
+# .to_html()
 
 
 
