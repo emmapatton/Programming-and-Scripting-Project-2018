@@ -1,37 +1,65 @@
 # Programming & Scripting Project '18 - Fisher's Iris Data Set
 
+Programming and Scripting Module Project (April 2018) for the online Higher Diploma in Data Analytics with the Galway Mayo Institute of Technology (GMIT). Python is the programming language covered in this module. Visual Studio Code was the editor used to write code for the analysis of the Iris Data Set. 
+
 ## Introduction 
-*Research background information about the data set and write a summary about it. (delete this prompt when finished)*
 Fisher's Iris Data Set [1] is a multivariate data set that was introduced by Ronald Fisher [2], a British statistician and biologist. This data set is extremely well known in classification literature. Fisher introduced the iris data set in his paper "The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis" [3].
 
 The iris data set contains data from 3 different species of iris flower; Iris Setosa, Iris Versicolor and Iris Virginica. Fifty samples of each species were recorded. Four measurements (in centimetres) of each iris flower species were taken; sepal length, sepal width, petal length and petal width [4]. Fisher's data set has been commonly used for learning and testing purposes in areas of computer science and is one of the most well known data sets in this area [5].
 
-
 ## Getting Started
+1. Download Python, Anaconda and Visual Studio Code (see links below) as pre-requisites to running this program.
+2. All files for this project are available at: https://github.com/emmapatton/Programming-and-Scripting-Project-2018
+3. Open the file named: iris_stats_data.py. You can copy the code from this file into Visual Studio Code to run the code.
+3. You must also have access to the iris.csv file as this contains the raw data to run the program. 
+4. This ReadME provides an overview of investigations of the Iris Data Set. 
 
 ### Prerequisites
 The following downloads are required to run this program: 
-
-- **Python** (ref) is a high level programming language .....
-
-https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/ - benefits of Python ... 
-
-- **Anaconda** (ref) is an open source pacakge manager used with Python. It is commonly used in Data Analytics. 
-"Anaconda is a free and open source[5] distribution of the Python and R programming languages for data science and machine learning related application" (wiki ref). 
-
-- **Visual Studio Code** (ref) is a source code editor that isavaiable on a number of operating systems including Windows, macOS and Linux. Visual studio code is the editor that can be used to run the programmes within this project. 
+- **Python** 
+    - Download Link: https://www.python.org/downloads/
+- **Anaconda**
+    - Download Link: https://www.anaconda.com/download/
+- **Visual Studio Code**
+- Download Link: https://code.visualstudio.com/Download
 
 
+### Iris Data Set Summary
 
-### Installing 
-- Python  - available from: https://www.python.org/downloads/ -  It is recommended that you download the most recent version of Python. Check your operating system.....correct download (reword this). 
-- Anaconda - available from: https://www.anaconda.com/download/
-- Visual Studio Code: https://code.visualstudio.com/Download
 
-2. Keep a list of references you used in completing the project.
-3. Download the data set and write some Python code to investigate it.
-4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
+
+
+### Here are my tables 
+
+![alt-text-1](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Setosa%20Table.PNG)
+
+![alt-text-2](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Veriscolor%20Table.PNG)
+
+![alt-text-3](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Virginica%20Table.PNG)
+
+
+
+### Here's my first image
+
+![alt-text-4](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png)
+
+
+
+### Here's my second image
+
+![alt-text-5](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
+
+
+
+
+
+
 5. Write a summary of your investigations.
+
+
+
+
+
 6. Include supporting tables and graphics as you deem necessary.
 
 
@@ -54,25 +82,6 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 [5] https://www.techopedia.com/definition/32880/iris-flower-data-set 25/04/2018 
 
 
-### Here are my tables 
-
-![alt-text-1](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Setosa%20Table.PNG)
-
-![alt-text-2](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Veriscolor%20Table.PNG)
-
-![alt-text-3](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Virginica%20Table.PNG)
-
-
-
-### Here's my first image
-
-![alt-text-4](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png)
-
-
-
-### Here's my second image
-
-![alt-text-5](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
 
 
 
