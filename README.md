@@ -24,7 +24,7 @@ The following downloads are required to run this program:
 - Download Link: https://code.visualstudio.com/Download
 
 
-### Iris Data Set Summary
+## Iris Data Set Summary
 The following three tables provide a basic overview of the iris data set, grouped by species. Each table contains the count, mean, median, standard deviation, minimum and maximum values for sepal length, sepal width, petal length and petal width. 
 
 ##### Table 1: 
@@ -41,11 +41,19 @@ From this initial data, we can see that Iris Virginica has the largest mean for 
 
 Further analysis of the data set is required to provide us with more information. In order to do this I have created scatter plots comparing two measurements of each of the species. A scatter plot [6] is a mathematical diagram that displays two sets of variables. It allows us to visually represent relationships between data. 
 
-
+**Note:** 
+- Iris Setosa is represented in blue
+- Iris Veriscolor is represented in red
+- Iris Virginica is represented in green.
 
 ##### Figure 1: Scatter Plots 
 
 ![alt-text-4](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png)
+
+From these scatter plots it is immediately obvious that Iris Setosa, represented by the blue dots 
+
+
+
 
 
 
