@@ -58,7 +58,7 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 ### Here's my first image
 
-![alt text] (https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
+![alt text] (https://github.com/emmapatton/Programming-and-Scripting-Project-2018.wiki.git)
 
 ### Project Planning / To do:
 - Quality Assurance Framework
