@@ -12,7 +12,7 @@ The iris data set contains data from 3 different species of iris flower; Iris Se
 2. All files for this project are available at: https://github.com/emmapatton/Programming-and-Scripting-Project-2018
 3. Open the file named: iris_stats_data.py. You can copy the code from this file into Visual Studio Code to run the code.
 3. You must also have access to the iris.csv file as this contains the raw data to run the program. 
-4. This ReadME provides an overview of investigations of the Iris Data Set. 
+4. This README provides an overview of investigations of the Iris Data Set. 
 
 ### Prerequisites
 The following downloads are required to run this program: 
@@ -25,17 +25,17 @@ The following downloads are required to run this program:
 
 
 ### Iris Data Set Summary
-
-
-
-
-### Here are my tables 
+The following three tables provide a basic overview of the iris data set, grouped by species. Each table contains the count, mean, median, standard deviation, minimum and maximum values for sepal length, sepal width, petal length and petal width. 
 
 ![alt-text-1](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Setosa%20Table.PNG)
 
 ![alt-text-2](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Veriscolor%20Table.PNG)
 
 ![alt-text-3](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Virginica%20Table.PNG)
+
+From this initial data, we can see that Iris Virginica has the largest mean for sepal length, petal length and petal width. Iris Virginica however also has higher standard deviation values, indicating a greater spread within the data. Iris Setosa has the smallest minimum values for sepal length, petal length and petal width, coupled with low standard deviations it may be hypothesised that Iris Setosa has the smallest petals of the three species, within this data set. One key difference is that Iris Setosa also has the largest minimum value for sepal width indicating a broad short sepal and short thin petals. Iris Virginica has the largest maximum values for seapl length, petal length and petal width, indicating this in general this species has a larger flower.\
+
+Further analysis of the data set is required to provide us with more information. 
 
 
 
@@ -127,6 +127,9 @@ https://medium.com/@kasiarachuta/basic-statistics-in-pandas-dataframe-594208074f
 
 ### Accessed on 28/04/2018 
 - https://matplotlib.org/users/pyplot_tutorial.html#working-with-multiple-figures-and-axes
+
+### Accessed on 29/04/2018 
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images
 
 
 
