@@ -55,6 +55,11 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 
 
+
+### Here's my first image
+
+![alt text] (https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
+
 ### Project Planning / To do:
 - Quality Assurance Framework
 - For summary: what the data contains, what it's about, background surrounding data, why it is so commonly used in data analytics
@@ -92,6 +97,9 @@ https://medium.com/@kasiarachuta/basic-statistics-in-pandas-dataframe-594208074f
 
 ### Accessed on 26/04/2018 
 - https://www.shanelynn.ie/using-pandas-dataframe-creating-editing-viewing-data-in-python/
+
+### Accessed on 28/04/2018 
+- https://matplotlib.org/users/pyplot_tutorial.html#working-with-multiple-figures-and-axes
 
 
 
