@@ -128,13 +128,13 @@ showHistogramIris(setosa_df, versicolor_df, virginica_df, "Petal Width")
 
 
 
-# spearman_result = irisstats.corr(method='spearman')
+# # spearman_result = irisstats.corr(method='spearman')
 
-# print(spearman_result) #https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient
+# # print(spearman_result) #https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient
 
-# correl_result = irisstats.corr(method='pearson')
+# # correl_result = irisstats.corr(method='pearson')corr(method='pearson')
 
-# print(correl_result)
+# # print(correl_result)
 
-#https://en.wikipedia.org/wiki/Correlation_coefficient
+# #https://en.wikipedia.org/wiki/Correlation_coefficient
 
