@@ -20,7 +20,20 @@ irisstats = pd.read_csv("data/iris.csv", header = None, names = ["Sepal Length",
 
 # table = irisstats.describe()
 
-irisstats.hist(column=1)
+x = irisstats.hist()
+
+x[0][0].set_xlabel('length (cm)')
+x[0][0].set_ylabel('count')
+
+x[0][1].set_xlabel('width (cm)')
+x[0][1].set_ylabel('count')
+
+x[1][0].set_xlabel('length (cm)')
+x[1][0].set_ylabel('count')
+
+x[1][1].set_xlabel('width (cm)')
+x[1][1].set_ylabel('count')
+
 
 plt.show()
 

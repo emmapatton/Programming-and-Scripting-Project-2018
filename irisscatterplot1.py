@@ -28,6 +28,7 @@ irisstats = pd.read_csv("data/iris.csv", header = None, names = ["Sepal Length",
 irisstats.plot.scatter('Sepal Length', 'Sepal Width')
 irisstats.plot.scatter('Petal Length', 'Petal Width')
 
+
 # ?Figure out how to plot this using colours and a key - ?Seaborn?? 
 # Also look into box plots
 

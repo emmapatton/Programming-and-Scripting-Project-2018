@@ -15,8 +15,6 @@ irisstats = pd.read_csv("data/iris.csv", header = None, names = [*heading, "Spec
 
 
 
-
-
 irisstats_group_bys = irisstats.groupby(['Species'])
 
 
@@ -30,18 +28,18 @@ virginica_df = irisstats_group_bys.get_group('Iris-virginica')
 virginica_df.name = 'Iris-virginica'
 
 
-def getIrisStats(species_group):
-    count = species_group.count()
-    mean = species_group.mean()
-    median = species_group.median()
-    stan_dev = species_group.std()
-    min = species_group.min(numeric_only=1)
-    max = species_group.max(numeric_only=1)
+def getIrisStats(species):
+    count = species.count()
+    mean = species.mean()
+    median = species.median()
+    stan_dev = species.std()
+    min = species.min(numeric_only=1)
+    max = species.max(numeric_only=1)
 
     species_columnwidth = '             {:^12}  {:^12}  {:^12}  {:^12}'
     num_columnwidth = '{:12} {:^12.2f}  {:^12.2f}  {:^12.2f}  {:^12.2f}'
 
-    print(species_group.name)
+    print(species.name)
     print(species_columnwidth.format(*heading))
     print(num_columnwidth.format('Count', *count.values))
     print(num_columnwidth.format('Mean', *mean.values))
@@ -56,19 +54,53 @@ getIrisStats(setosa_df)
 getIrisStats(versicolor_df)
 getIrisStats(virginica_df)
 
+def showScatterIris(setosa, versicolor, virginica, column_1, column_2):
 
-# print(setosa_df.to_html())
+    x1 = setosa[column_1]
+    y1 = setosa[column_2]
+    x2 = versicolor[column_1]
+    y2 = versicolor[column_2]
+    x3 = virginica[column_1]
+    y3 = virginica[column_2]
 
-# .to_html()
+    plt.title(column_1 + " vs. " + column_2)
+    plt.xlabel(column_1)
+    plt.ylabel(column_2)
+
+    plt.scatter(x1, y1, c='b')
+    plt.scatter(x2, y2, c='o') 
+    plt.scatter(x3, y3, c='g')
+
+    plt.show()
+
+showScatterIris(setosa_df, versicolor_df, virginica_df, "Sepal Length", "Sepal Width")
+showScatterIris(setosa_df, versicolor_df, virginica_df, "Sepal Length", "Petal Length")
+showScatterIris(setosa_df, versicolor_df, virginica_df, "Sepal Length", "Petal Width")
+showScatterIris(setosa_df, versicolor_df, virginica_df, "Sepal Width", "Petal Length")
+showScatterIris(setosa_df, versicolor_df, virginica_df, "Sepal Width", "Petal Width")
+showScatterIris(setosa_df, versicolor_df, virginica_df, "Petal Length", "Petal Width")
+
+# Learning from: https://matplotlib.org/examples/pylab_examples/subplots_demo.html#pylab-examples-subplots-demo
 
 
 
+def showHistogramIris(setosa, versicolor, virginica, column_name):
+    plt.figure()
+    plt.title(column_name)
+    plt.xlabel('Centimeters')
+    plt.ylabel('Count')
+    y1 = setosa[column_name]
+    y2 = versicolor[column_name]
+    y3 = virginica[column_name]
+    plt.hist(y1, bins=12)
+    plt.hist(y2, bins=12)
+    plt.hist(y3, bins=12)
+    plt.show()
 
-
-
-
-
-
+showHistogramIris(setosa_df, versicolor_df, virginica_df, "Sepal Length")
+showHistogramIris(setosa_df, versicolor_df, virginica_df, "Sepal Width")
+showHistogramIris(setosa_df, versicolor_df, virginica_df, "Petal Length")
+showHistogramIris(setosa_df, versicolor_df, virginica_df, "Petal Width")
 
 
 
