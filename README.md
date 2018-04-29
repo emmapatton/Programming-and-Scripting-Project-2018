@@ -54,16 +54,25 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 [5] https://www.techopedia.com/definition/32880/iris-flower-data-set 25/04/2018 
 
 
+### Here are my tables 
+
+![alt-text-1](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Setosa%20Table.PNG)
+
+![alt-text-2](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Veriscolor%20Table.PNG)
+
+![alt-text-3](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Virginica%20Table.PNG)
+
+
 
 ### Here's my first image
 
-![alt-text-1](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png)
+![alt-text-4](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png)
 
 
 
 ### Here's my second image
 
-![alt-text-2](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
+![alt-text-5](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
 
 
 
