@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pprint import pprint 
 
-#Reading: 
+#Research: 
 # https://pandas.pydata.org/
 # https://matplotlib.org/
 
@@ -44,7 +44,7 @@ virginica_df.name = 'Iris-virginica'
 
 
 # I then created a function called getIrisStats to analyse each psecies group. I wanted to
-# find out the count, mean, median etc. I then print these individually to the terminal. 
+# find out the count, mean, median etc. I then printed these individually to the terminal. 
 
 def getIrisStats(species):
     count = species.count()
@@ -65,12 +65,18 @@ def getIrisStats(species):
     print(num_columnwidth.format('Stand Dev', *stan_dev.values))
     print(num_columnwidth.format('Min', *min.values))
     print(num_columnwidth.format('Max', *max.values))
-    print('')
+    print('') # This information can also be obtained using the built in .describe pandas function 
 
 
 getIrisStats(setosa_df)
 getIrisStats(versicolor_df)
 getIrisStats(virginica_df)
+
+# In order to represent my data visually using a scatterplot, I created another function
+# called showScatterIris. This allowed me to compare two measurements of each species. 
+# Iris Setosa is represented in blue
+# Iris Veriscolor is represented in red, and
+# Iris Virginica is represented in green. 
 
 def showScatterIris(setosa, versicolor, virginica, column_1, column_2):
 
@@ -80,7 +86,7 @@ def showScatterIris(setosa, versicolor, virginica, column_1, column_2):
     y2 = versicolor[column_2]
     x3 = virginica[column_1]
     y3 = virginica[column_2]
-
+    
     plt.title(column_1 + " vs. " + column_2)
     plt.xlabel(column_1)
     plt.ylabel(column_2)
@@ -98,9 +104,9 @@ showScatterIris(setosa_df, versicolor_df, virginica_df, "Sepal Width", "Petal Le
 showScatterIris(setosa_df, versicolor_df, virginica_df, "Sepal Width", "Petal Width")
 showScatterIris(setosa_df, versicolor_df, virginica_df, "Petal Length", "Petal Width")
 
-# Learning from: https://matplotlib.org/examples/pylab_examples/subplots_demo.html#pylab-examples-subplots-demo
-
-
+# I also investigated the data using the histogram function. I created a function 
+# named showHistogramIris. This function allows me to look at one measurement at a time 
+# (for example Sepal Length) and allows me to compare each species on a histogram. 
 
 def showHistogramIris(setosa, versicolor, virginica, column_name):
     plt.figure()
@@ -121,20 +127,11 @@ showHistogramIris(setosa_df, versicolor_df, virginica_df, "Petal Length")
 showHistogramIris(setosa_df, versicolor_df, virginica_df, "Petal Width")
 
 
-# Reading from: 
-# https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.hist.html
+# Reading and Research from: 
+# https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
 # https://pandas.pydata.org/pandas-docs/stable/visualization.html
 # https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html
-
-
-
-# # spearman_result = irisstats.corr(method='spearman')
-
-# # print(spearman_result) #https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient
-
-# # correl_result = irisstats.corr(method='pearson')corr(method='pearson')
-
-# # print(correl_result)
-
-# #https://en.wikipedia.org/wiki/Correlation_coefficient
-
+# https://matplotlib.org/examples/pylab_examples/subplots_demo.html#pylab-examples-subplots-demo
+# https://matplotlib.org/api/colors_api.html 
+# https://www.learnpython.org/en/Functions
+# https://docs.python.org/3/tutorial/controlflow.html#defining-functions 
