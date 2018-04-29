@@ -63,12 +63,21 @@ Reference-style:
 [logo]: https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png
 
 
+
+
+
+fdfdnujgosdbn ohtthnogsgggdgdhghgfhgf gdgd d
+
 ### Here's my second image
 
 Reference-style: 
 ![alt text][logo]
 
 [logo]: https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png
+
+
+
+
 
 ### Project Planning / To do:
 - Quality Assurance Framework
