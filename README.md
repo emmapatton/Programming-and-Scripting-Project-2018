@@ -96,7 +96,7 @@ More detailed analysis and interpretation of the iris data set can be found here
 
 
 
-## Bibliography 
+## Bibliography and Acknowledgements 
 - Data Camp. Python Exploratory Data Analysis Tutorial. [ONLINE] Available at: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python#import [Accessed 06 April 2018]. 
 
 - Erik Marsja. Descriptive Statistics using Python. [ONLINE] Available at: https://www.marsja.se/pandas-python-descriptive-statistics/ [Accessed 06 April 2018].  
@@ -128,4 +128,10 @@ More detailed analysis and interpretation of the iris data set can be found here
 - Kaggle. Machine Learning with Iris Dataset. [ONLINE] Available at: https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset [Accessed 29 April 2018].
 
 - Kaggle. Iris Dataset ML and Deep Learning from Scratch. [ONLINE] Available at: https://www.kaggle.com/kamrankausar/iris-dataset-ml-and-deep-learning-from-scratch [Accessed 29 April 2018].
+
+## Author
+- Emma Patton
+
+## License 
+- Apache License 2.0 - see https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/LICENSE for details. 
 
