@@ -27,25 +27,29 @@ The following downloads are required to run this program:
 ### Iris Data Set Summary
 The following three tables provide a basic overview of the iris data set, grouped by species. Each table contains the count, mean, median, standard deviation, minimum and maximum values for sepal length, sepal width, petal length and petal width. 
 
+##### Table 1: 
 ![alt-text-1](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Setosa%20Table.PNG)
 
+##### Table 2: 
 ![alt-text-2](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Veriscolor%20Table.PNG)
 
+##### Table 3: 
 ![alt-text-3](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/Iris-Virginica%20Table.PNG)
 
-From this initial data, we can see that Iris Virginica has the largest mean for sepal length, petal length and petal width. Iris Virginica however also has higher standard deviation values, indicating a greater spread within the data. Iris Setosa has the smallest minimum values for sepal length, petal length and petal width, coupled with low standard deviations it may be hypothesised that Iris Setosa has the smallest petals of the three species, within this data set. One key difference is that Iris Setosa also has the largest minimum value for sepal width indicating a broad short sepal and short thin petals. Iris Virginica has the largest maximum values for seapl length, petal length and petal width, indicating this in general this species has a larger flower.\
-
-Further analysis of the data set is required to provide us with more information. 
+From this initial data, we can see that Iris Virginica has the largest mean for sepal length, petal length and petal width. Iris Virginica however also has higher standard deviation values, indicating a greater spread within the data. Iris Setosa has the smallest minimum values for sepal length, petal length and petal width, coupled with low standard deviations it may be hypothesised that Iris Setosa has the smallest petals of the three species, within this data set. One key difference is that Iris Setosa also has the largest minimum value for sepal width indicating a broad short sepal and short thin petals. Iris Virginica has the largest maximum values for seapl length, petal length and petal width, indicating this in general this species has a larger flower.
 
 
+Further analysis of the data set is required to provide us with more information. In order to do this I have created scatter plots comparing two measurements of each of the species. A scatter plot [6] is a mathematical diagram that displays two sets of variables. It allows us to visually represent relationships between data. 
 
-### Here's my first image
+
+
+##### Figure 1: Scatter Plots 
 
 ![alt-text-4](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png)
 
 
 
-### Here's my second image
+##### Figure 2: Histograms 
 
 ![alt-text-5](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
 
@@ -80,6 +84,8 @@ http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 [5] https://www.techopedia.com/definition/32880/iris-flower-data-set 25/04/2018 
+
+[6] - http://www.statisticshowto.com/probability-and-statistics/regression-analysis/scatter-plot-chart/ 29/04/2018 
 
 
 
@@ -130,6 +136,7 @@ https://medium.com/@kasiarachuta/basic-statistics-in-pandas-dataframe-594208074f
 
 ### Accessed on 29/04/2018 
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images
+
 
 
 
