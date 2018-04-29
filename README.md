@@ -57,23 +57,13 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 ### Here's my first image
 
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png
+![alt-text-1](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png)
 
 
-
-
-
-fdfdnujgosdbn ohtthnogsgggdgdhghgfhgf gdgd d
 
 ### Here's my second image
 
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png
+![alt-text-2](https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/histo-all.png)
 
 
 
