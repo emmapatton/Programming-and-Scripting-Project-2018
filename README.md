@@ -55,8 +55,15 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 
 
-
 ### Here's my first image
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/emmapatton/Programming-and-Scripting-Project-2018/blob/master/scatter-all.png
+
+
+### Here's my second image
 
 Reference-style: 
 ![alt text][logo]
